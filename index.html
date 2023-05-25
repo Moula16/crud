@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crude</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="crud">
+        <div class="head"> 
+            <h2>crud</h2>
+            <p>product management system</p>
+        </div>
+        <div class="inputs">
+            <input type="text" id="title" placeholder="title">
+        <div class="price">
+            <input onkeyup="getTotel()" type="number" id="price" placeholder="price">
+            <input onkeyup="getTotel()" type="number" id="taxes" placeholder="taxes">
+            <input onkeyup="getTotel()" type="number" id="ads" placeholder="ads">
+            <input onkeyup="getTotel()" type="number" id="discount" placeholder="discount">
+            <small id="total"></small>
+        </div>
+        <input type="number" id="count" placeholder="count">
+            <input type="text" id="category" placeholder="category">
+            <button id="submit">create</button>
+
+        </div>
+
+
+        <div class="outputs">
+ <div class="searchblock">
+    <input type="text" id="search" placeholder="search">
+<div class="btnsearch">
+<button id="searchtitle">search by title</button>
+<button id="searchcategory">search by category</button>
+</div>
+ </div>
+
+<table>
+    <tr>
+        <th>id</th>
+        <th>title</th>
+        <th>price</th>
+        <th>price</th>
+        <th>ads</th>
+        <th>discount</th>
+        <th>total</th>
+        <th>category</th>
+        <th>update</th>
+        <th>delete</th>
+    </tr>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>iphone</td>
+            <td>21</td>
+            <td>222</td>
+            <td>121</td>
+            <td>21</td>
+            <td>324</td>
+            <td>phone</td>
+            <td><button id="update">update</button></td>
+            <td><button id="delete">delete</button></td>
+
+        </tr><tr>
+            <td>1</td>
+            <td>iphone</td>
+            <td>21</td>
+            <td>222</td>
+            <td>121</td>
+            <td>21</td>
+            <td>324</td>
+            <td>phone</td>
+            <td><button id="update">update</button></td>
+            <td><button id="delete">delete</button></td>
+
+        </tr><tr>
+            <td>1</td>
+            <td>iphone</td>
+            <td>21</td>
+            <td>222</td>
+            <td>121</td>
+            <td>21</td>
+            <td>324</td>
+            <td>phone</td>
+            <td><button id="update">update</button></td>
+            <td><button id="delete">delete</button></td>
+
+        </tr><tr>
+            <td>1</td>
+            <td>iphone</td>
+            <td>21</td>
+            <td>222</td>
+            <td>121</td>
+            <td>21</td>
+            <td>324</td>
+            <td>phone</td>
+            <td><button id="update">update</button></td>
+            <td><button id="delete">delete</button></td>
+
+        </tr>
+    </tbody>
+</table>
+        </div>
+    </div>
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
